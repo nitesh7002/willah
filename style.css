@@ -1,0 +1,720 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+ 
+ max-width: 100%;
+ overflow-x: hidden;
+}
+.header{
+  width: 100%;
+  height: 3cm;
+  background-color:rgb(24, 41, 100);
+  position: fixed;
+  top: 0;
+  display: flex;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  
+}
+
+.imgDiv img{
+  height: 3cm;
+  
+}
+.content{
+ width: 100%;
+
+}
+.containe{
+ position: relative;
+ width: 100%;
+ 
+}
+.content img{
+  width: 100%;
+  height: 100vh;
+ 
+  
+}
+.containe img{
+  width: 100%;
+  height: 100vh;
+}
+.control{
+ display: flex;
+ justify-content: center;
+ gap: 1cm;
+ width: 100%;
+  position: absolute;
+ top: 80%;
+ 
+ 
+  
+}
+.arrow1,.arrow2{
+ background-color: rgba(255, 255, 255, 0.51);
+padding: 12px 9px 0px 7px ;
+
+ width: 0.9cm;
+ height: 0.9cm;
+ border-radius: 50%;
+ text-align: center;
+}
+
+.caption{
+  width: 100%;
+  position: absolute;
+  
+  
+  font-size: 20px;
+  
+  
+  text-align: center;
+  padding-top: 0.2cm;
+  top: 4cm;
+  
+}
+
+.slider{
+
+  display: none;
+  
+  
+}
+.poster{
+ filter: blur(3px);
+ 
+}
+
+.caption img{
+  width: 0.6cm;
+  height: 0.6cm;
+  
+  
+}
+
+.caption p, h1{
+  margin-bottom: 0.6cm;
+}
+.caption button{
+  width: 3cm;
+  height: 1cm;
+  font-size: 18px;
+  background-color: white;
+  border: none;
+
+}
+.title span{
+  color:rgb(153,101,21);
+}
+.title{
+ margin-top: 1cm;
+  text-align: center;
+  height: 4cm;
+}
+.title p{
+ font-size: 18px;
+}
+
+
+.cards{
+ 
+ width: 100%;
+ height: auto;
+ background-color:rgb(24, 41, 100);
+ 
+}
+.items{
+ 
+ display: flex;
+ flex-wrap: wrap;
+ gap: 1cm;
+ 
+ justify-content: center;
+ width: 100%;
+}
+.box1,.box2,.box3,.box4,.box5,.box6,.box7,.box8{
+ width: max(9cm,30%);
+ position: relative;
+ top:-1cm;
+ 
+ background-color: white;
+
+}
+.details{
+ 
+ display: flex;
+ justify-content: space-evenly;
+ 
+}
+.itemsImg{
+ width: 100%;
+}
+.column1{
+ width: 100%;
+
+}
+.column1 div{
+ 
+
+ margin: 0.2cm 0;
+ text-align: center;
+}
+.moscow{
+ color: rgb(153,101,21);
+ font-size:  30px;
+ margin:0 0.3cm;
+ padding-top: 0.2cm;
+ border-top: 1px solid gray;
+ 
+}
+.igat{
+ margin-left: 0.3cm;
+ font-size: 18px;
+}
+.box1 button,.box2 button,.box3 button,.box4 button,.box5 button,.box6 button,.box7 button,.box8 button{
+ width: 2.5cm;
+ font-size: 18px;
+ color: white;
+ height: 1cm;
+ background-color: rgb(24, 41, 100);
+ border: none;
+ margin: 0.2cm;
+ border-radius: 5px;
+
+}
+
+
+
+
+.items div div img{
+ width: 0.7cm;
+ height: 0.7cm;
+}
+
+
+.hover{
+ margin-bottom: 2cm;
+}
+
+
+
+.part1,.part3,.part2,.part4{
+ display: flex;
+ flex-wrap: wrap;
+ height: 8cm;
+ width: 100%;
+ height: auto;
+ justify-content: space-evenly;
+ 
+
+}
+.part1 div{
+ height: 8cm;
+margin-bottom: 0.2cm; 
+ width: max(9cm,45%);
+ 
+}
+.part2 div{
+ height: 8cm;
+margin-bottom: 0.2cm; 
+ width: max(9cm,30%);
+ 
+ 
+}
+.part3 div{
+ height: 8cm;
+margin-bottom: 0.2cm; 
+ width: max(9cm,45%);
+ 
+ 
+}
+.part4 div{
+ height: 8cm;
+margin-bottom: 0.2cm; 
+ width: max(9cm,30%);
+ 
+ 
+}
+.part3 .col:hover{
+ background-color:rgba(24, 40, 100, 0.51) ;
+}
+.part4 .col:hover{
+ background-color:rgba(24, 40, 100, 0.51) ;
+}
+.part1 .col img{
+ width: max(9cm,100%);
+ height: 8cm;
+
+}
+.part2 .col img{
+ width: max(9cm,100%);
+ height: 8cm;
+ 
+}
+.col {
+ display: flex;
+ justify-content: center;
+ align-items: end;
+ 
+}
+.col div{
+ width: 70%;
+ padding: 0.2cm;
+ height: 10%;
+ text-align: center;
+ color: white;
+ border: none;
+ margin-bottom: 1cm;
+ box-shadow: 1px 1px 3px 0px  white;
+ border-radius: 3px;
+}
+.col div:hover{
+ background-color: white;
+ color: black;
+
+}
+.part3{
+ position: absolute;
+ text-align: end;
+
+ top: -2;
+}
+.part4{
+ position: absolute;
+ text-align: end;
+ top: -2;
+}
+.content3{
+ display: flex;
+ flex-direction: column;
+ 
+}
+
+.hoverDiv {
+
+ position: relative;
+ height: auto;
+}
+.hoverImgDiv{
+ 
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+ width: 100%;
+ height: auto;
+}
+.hoverDetails{
+ 
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+ width: 100%;
+ height: auto;
+ position: absolute;
+ top: 0;
+}
+
+
+.detailsDiv .details1,.details3,.details5,.details7{
+
+ width: 100%;
+ height: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: rgba(24, 40, 100, 0.71);
+}
+.details2,.details4,.details6,.details8{
+ 
+ width: 100%;
+ height: 100%;
+ display: none;
+ flex-direction: column;
+ justify-content: end;
+ align-items: center;
+
+ 
+ 
+}
+.details1 p,.details3 p,.details5 p,.details7 p{
+ 
+ text-align: center;
+ width: 70%;
+ height: 0.8cm;
+ padding-top: 0.1cm;
+ color: white;
+ font-size: 24px;
+}
+
+.subdetails,.subdetails,.subdetails,.subdetails{
+ 
+ 
+ 
+ height: 2cm;
+
+ background-color: rgba(0, 0, 0, 0.364);
+ 
+ color: white;
+ width: 100%;
+ 
+}
+.details2 div div,.details4 div div,.details6 div div,.details8 div div{
+ padding-left: 0.2cm;
+ 
+}
+.hoverImg,.detailsDiv{
+ 
+ width:max(9.5cm,24.8%);
+ height: 8cm;
+
+}
+.hoverImgDiv div img{
+ width: 100%;
+ height: 100%;
+}
+
+.content5{
+  padding-top: 1cm;
+   position: relative;
+   margin-top: 2cm;
+   background-image: url("./imgs/last1.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 5cm;
+}
+
+.aboutImg h1{
+   position: absolute;
+   top: 20px;
+   left: 30px;
+}
+.aboutImg img{
+   width: 100%;
+   height: 7cm;
+}
+.content6{
+   
+   
+   display: flex;
+   flex-wrap: wrap;
+   position: relative;
+  
+
+   height: auto;
+   margin-left:  10%;
+   margin-right: 10%;
+   margin-top: 2cm;
+   margin-bottom: 1cm;
+   width: 80%;
+ }
+ .content6 div{
+   width: max(10cm,50%);
+ }
+ .content6 div img{
+   width: 100%;
+   height: 100%;
+ }
+
+.div2{
+ background-color: rgb(252, 246, 246);
+}
+.div2 h1{
+ margin: 1.5cm 0 1cm 1cm;
+}
+.div2 p{
+ margin-left: 1cm;
+ margin-bottom: 1cm;
+ letter-spacing: 1px;
+}
+
+.reels{
+ 
+ width: 100%;
+ 
+ display: flex;
+ flex-wrap: wrap;
+ gap: 1cm;
+ justify-content: center;
+
+
+}
+.reels div video{
+ width:9cm;
+ margin: 1.5cm 0;
+
+ height: 9cm;} 
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 96%;
+    padding: 1.5%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.popup-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    text-align: start;
+}
+.popup-container h2{
+ text-align: center;
+ 
+}
+.close img{
+ width: 0.6cm;
+ height: 0.6cm;
+
+}
+.head{
+ display: flex;
+ justify-content: space-between;
+}
+
+form input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #4caf50;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form  button:hover {
+    background-color: #45a049;
+}
+.whatsapp-container {
+ position: fixed;
+ bottom: 20px;
+ right: 20px;
+ z-index: 1000;
+ cursor: pointer;
+ transition: transform 0.3s ease-in-out;
+}
+
+.whatsapp-icon {
+ width: 60px;
+ height: 60px;
+ background-color: #25D366;
+ border-radius: 50%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ color: #fff;
+ font-size: 24px;
+ box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.whatsapp-icon img{
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+ border-radius: 50%;
+ 
+ 
+}
+
+.whatsapp-icon:hover {
+ transform: scale(1.1);
+}
+
+
+@keyframes pulse {
+ 0% { transform: scale(1); }
+ 50% { transform: scale(1.2); }
+ 100% { transform: scale(1); }
+}
+
+.whatsapp-icon.animated:hover {
+ animation: pulse 1s infinite;
+}
+.phone-container {
+ position: fixed;
+
+ bottom: 20px;
+ left: 20px;
+ z-index: 1000;
+ cursor: pointer;
+ transition: transform 0.3s ease-in-out;
+}
+
+.phone-icon {
+ width: 60px;
+ height: 60px;
+ background-color: #4285F4;
+ border-radius: 50%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ color: #fff;
+ font-size: 24px;
+ box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.phone-icon:hover {
+ transform: scale(1.1);
+}
+
+
+@keyframes pulse {
+ 0% { transform: scale(1); }
+ 50% { transform: scale(1.2); }
+ 100% { transform: scale(1); }
+}
+
+.phone-icon.animated:hover {
+ animation: pulse 1s infinite;
+}
+
+.footer{
+  height: 4.5cm;
+  padding-top: 0.4cm;
+  background-color: rgb(24, 41, 100);
+}
+.footer1{
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+
+  background-color: rgb(24, 41, 100) ; 
+}
+
+.left{
+ 
+  display: flex;
+  justify-content: center;
+ 
+  width: max(5cm,49%);
+  
+  
+}
+.right{
+
+  display: flex;
+  justify-content: center;
+  width: max(5cm,49%);
+  
+  
+}
+.left div,.right div{
+  text-align: center;
+  padding: 0 0.2cm;
+  margin: 0.2cm 0;
+  
+  
+  
+}
+.left1 ,.right1{
+  border-right: 2px solid white;
+}
+.footer2{
+  align-items: center;
+  background-color: rgb(24, 41, 100);
+  width: 100%;
+  text-align: center;
+  height: 32%;
+  display: flex;
+  padding: 1% 0;
+  justify-content: center;
+  gap: 0.5cm;
+}
+.footer2 i{
+  color: white;
+}
+.footer3{
+  
+  color: white;
+  display: flex;
+  justify-content: center;
+  height: 40%;
+  text-align: center;
+  align-items: center;
+  background-color: rgb(24, 41, 100);
+  
+}
+.content7{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  
+}
+#back{
+  color: white;
+   border-bottom: 1px solid white;
+   text-align: center;
+   margin-top: 0.5cm;
+   font-size: 18px;
+
+}
+
+.main{
+  position: relative;
+}
+.thankBlur{
+  
+  width: 100%;
+  height: 100vh;
+  background-image: url("./imgs/photo4.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  
+}
+.thank{
+  color: rgb(254, 9, 9);
+}
+.successIcon i{
+  color: rgb(90, 211, 90);
+  font-size: 100px;
+}
+.thankPage{
+  position: absolute;
+  top: 0 ;
+  background-color: rgba(24, 40, 100, 0.832) ;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.thankPage p{
+  margin-bottom: 1cm;
+  font-size: 20px;
+  color: white;
+}
+.thankPage h1{
+  font-size: 50px;
+}
+@media (max-width:412px){
+  .left,.right{
+    width: 100%;
+  }
+}
